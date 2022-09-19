@@ -15,7 +15,6 @@ function validarFormulario(e){
     const turno = document.querySelector("#turno").value
 
     const respuesta = document.getElementById("respuesta");
-    respuesta.textContent = `Hola *${nombre}* has elegido el dia: ${dia}, en el turno: ${turno}.
-    A la breverdad nos estaremos comunicaremos contigo al tel:${tel} y/o correo:${correo} para confirmar si esta disponible dicho turno.`
+    respuesta.textContent = `Hola *${nombre}* has elegido el dia: ${dia}, en el turno: ${turno}.A la breverdad nos estaremos comunicaremos contigo al tel:${tel} y/o correo:${correo} para confirmar si esta disponible dicho turno.`
 }
 
